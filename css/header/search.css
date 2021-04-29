@@ -1,0 +1,23 @@
+.search {
+  position: relative;
+}
+
+.search::before {
+  content: "";
+  position: absolute;
+  background: url("./img/search.svg");
+  width: 20px; 
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  transform: translate(-20%, -10%);
+}
+
+.search__input {
+  background-color: #e5e5e5;
+  padding: 10px 20px 10px 50px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  color: #333333;
+}

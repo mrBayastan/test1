@@ -1,0 +1,19 @@
+@import "./nav.css";
+@import "./logo.css";
+@import "./phone.css";
+@import "./search.css";
+
+
+.header {
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 80px;
+  background-color: #efefef;
+}

@@ -1,0 +1,74 @@
+.invitation {
+  padding-top: 100px;
+}
+
+.invitation__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f13c6e;
+  margin: 15px;
+  padding: 35px 45px 35px 40px;
+  min-height: 200px;
+}
+
+.invitation__row {
+  margin: -15px;
+}
+
+.invitation__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.invitation__description {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 25px 0;
+  color: #ffffff;
+}
+
+.invitation__email input {
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
+  padding: 10px 26px;
+  background: #ffffff;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+.invitation__link {
+  display: block;
+  padding: 10px 28px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #f13c6e;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.invitation__description--smaller {
+  max-width: 141px;
+}
+
+.invitation__item:hover svg {
+  animation: car 1s forwards;
+}
+
+@keyframes car {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}

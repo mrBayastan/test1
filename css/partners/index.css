@@ -1,0 +1,15 @@
+.partners {
+  padding: 100px 0 0 0;
+}
+
+.partners__row {
+  margin: -1px;
+}
+
+.partners__column {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 35px 0;
+}

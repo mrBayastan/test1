@@ -1,0 +1,17 @@
+.logo__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #f13c6e;
+}

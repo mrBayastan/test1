@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px) {
+    .search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-top, 
+    .nav-bottom,
+    .phone {
+        display: none;
+    }
+    .header::before {
+        display: none;
+    }
+    .logo img {
+        max-width: 60px;
+    }
+    .logo__text {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,39 @@
+.hero {
+  background: url("./img/Rectangle\ 2.png") no-repeat center;
+  min-height: 604px;
+  background-size: cover;
+}
+
+.hero__content {
+  max-width: 308px;
+  padding-top: 192px;
+}
+
+.hero__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.hero__description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 50px 0;
+}
+
+.hero__link {
+  padding: 12px 26px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: #f13c6e;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-decoration: none;
+}
